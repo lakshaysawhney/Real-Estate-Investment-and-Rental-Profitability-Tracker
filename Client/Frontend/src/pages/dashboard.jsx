@@ -266,7 +266,7 @@ export default function Dashboard() {
               border: '4px solid rgba(255, 255, 255, 0.3)'
             }}
           >
-            <Typography sx={{ color: 'white', fontSize: 30, fontWeight: 'bold' }}>XYZ</Typography>
+            <Typography sx={{ color: 'white', fontSize: 30, fontWeight: 'bold' }}>PTrack</Typography>
           </Box>
           <Box sx={{ flexGrow: 1, zIndex: 1 }}>
             <Typography variant="h4" component="h1" fontWeight="bold" sx={{ 
@@ -274,10 +274,10 @@ export default function Dashboard() {
               letterSpacing: '1px',
               textShadow: '2px 2px 4px rgba(0, 0, 0, 0.15)'
             }}>
-              XYZ TRACKING
+              PropTrack
             </Typography>
             <Typography variant="body1" sx={{ color: 'rgba(255, 255, 255, 0.9)' }}>
-              Real Estate Analytics Dashboard
+                Real Estate Investment and Rental Profitability Tracker
             </Typography>
           </Box>
           <Box sx={{
