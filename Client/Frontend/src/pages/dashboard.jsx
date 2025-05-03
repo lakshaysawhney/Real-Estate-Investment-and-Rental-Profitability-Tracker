@@ -266,7 +266,7 @@ export default function Dashboard() {
               border: '4px solid rgba(255, 255, 255, 0.3)'
             }}
           >
-            <Typography sx={{ color: 'white', fontSize: 30, fontWeight: 'bold' }}>PTrack</Typography>
+            <Typography sx={{ color: 'white', fontSize: 15, fontWeight: 'bold' }}>PTrack</Typography>
           </Box>
           <Box sx={{ flexGrow: 1, zIndex: 1 }}>
             <Typography variant="h4" component="h1" fontWeight="bold" sx={{ 
