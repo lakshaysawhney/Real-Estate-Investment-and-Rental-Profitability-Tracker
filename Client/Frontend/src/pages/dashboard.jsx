@@ -1255,7 +1255,7 @@ export default function Dashboard() {
           </div>
 
           {/* Temperature */}
-          <div className="text-white text-lg font-bold">72°</div>
+          <div className="text-white text-lg font-bold">33°</div>
           <div className="text-white text-xs">Sunny</div>
           <div className="text-white text-xs opacity-70">India</div>
         </div>
