@@ -136,8 +136,8 @@ export default function PropertiesDashboard() {
                     <td className="p-3">{property.city}</td>
                     <td className="p-3">{property.neighbourhood}</td>
                     <td className="p-3">{property.property_type}</td>
-                    <td className="p-3">${property.purchase_price.toLocaleString()}</td>
-                    <td className="p-3">${property.current_value.toLocaleString()}</td>
+                    <td className="p-3">₹{property.purchase_price.toLocaleString()}</td>
+                    <td className="p-3">₹{property.current_value.toLocaleString()}</td>
                     <td className="p-3">{new Date(property.purchase_date).toLocaleDateString()}</td>
                   </tr>
                 ))}
