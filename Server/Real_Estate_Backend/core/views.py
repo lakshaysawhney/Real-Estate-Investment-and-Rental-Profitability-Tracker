@@ -49,7 +49,7 @@ class OutliersView(SimpleQueryView): query_file = 'outliers.sql'
 class NoRentalHighExpenseView(SimpleQueryView): query_file = 'no_rental_high_expense.sql'
 class MonthlyExpenseView(SimpleQueryView): query_file = 'monthly_expense.sql'
 class TopMonthsView(SimpleQueryView): query_file = 'top_months.sql'
-class CashflowMonthlyCursorView(SimpleQueryView): query_file = 'cashflow_monthly_cursor.sql'
+class CashflowMonthlyCursorView(SimpleQueryView): query_file = 'cashflow_monthly.sql'
 
 class ShowUsersView(SimpleQueryView): query_file = 'show_users.sql'
 class ShowPropertiesView(SimpleQueryView): query_file = 'show_properties.sql'

@@ -7,3 +7,5 @@ SELECT * FROM (
     LEFT JOIN Expenses e ON p.property_id = e.property_id
     GROUP BY p.property_id, p.address
 ) sub WHERE annual_cash_flow < 0
+
+-- sub is just an alias for subquery
