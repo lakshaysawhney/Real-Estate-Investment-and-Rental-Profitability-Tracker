@@ -19,6 +19,12 @@ import MonthlyCashflowDashboard from './pages/monthlyCashflow.jsx';
 import CalculateROIDashboard from './pages/calculateRoi.jsx';
 import DaysToLeaseEndDashboard from './pages/daysToLeaseEnd.jsx';
 import OutlierTransactionsDashboard from './pages/outlierTransactions.jsx';
+import ShowUsers from './pages/showUsers.jsx';
+import PropertiesDashboard from './pages/showProperties.jsx';
+import RentalsDashboard from './pages/showRentals.jsx';
+import ExpensesDashboard from './pages/showExpenses.jsx';
+import TransactionsDashboard from './pages/showTransactions.jsx';
+import MarketTrendsDashboard from './pages/showMarketTrends.jsx';
 
 function App() {
   return (
@@ -42,6 +48,12 @@ function App() {
         <Route path="trends/monthly-expense" element={<MonthlyExpenseDashboard/>} />
         <Route path="trends/top-months" element={<TopExpenseMonthsDashboard/>} />
         <Route path="cashflow/monthly" element={<MonthlyCashflowDashboard/>} />
+        <Route path="/showUsers" element={<ShowUsers/>} />
+        <Route path="showProperties" element={<PropertiesDashboard/>} />
+        <Route path="showRentals" element={<RentalsDashboard/>} />
+        <Route path="showExpenses" element={<ExpensesDashboard/>} />
+        <Route path="showTransactions" element={<TransactionsDashboard/>} />
+        <Route path="showMarketTrends" element={<MarketTrendsDashboard/>} />
 
         {/* PL SQL */}
         <Route path="calculate-roi" element={<CalculateROIDashboard/>} />
