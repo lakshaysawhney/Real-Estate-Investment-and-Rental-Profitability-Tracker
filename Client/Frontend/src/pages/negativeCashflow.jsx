@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
 } from "recharts";
-import { DollarSign, PieChart, Home, IndianRupee, TrendingDown } from "lucide-react";
+import { DollarSign, IndianRupee, PieChart, Home, IndianRupee, TrendingDown } from "lucide-react";
 import '../App.css';
 import '../index.css';
 
@@ -12,7 +12,7 @@ const CustomTooltip = ({ active, payload, label }) => {
       <div className="bg-white p-4 border border-gray-200 rounded-md shadow-lg">
         <p className="font-medium text-gray-700">{label}</p>
         <p className="text-red-600 font-medium flex items-center">
-          <DollarSign size={16} className="mr-1" />
+          <IndianRupee size={16} className="mr-1" />
           Negative Cash Flow: -${Math.abs(payload[0].value).toLocaleString()}
         </p>
       </div>
