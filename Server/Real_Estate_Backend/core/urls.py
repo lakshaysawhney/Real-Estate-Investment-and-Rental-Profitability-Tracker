@@ -19,6 +19,13 @@ urlpatterns = [
     path('top-months/', views.TopMonthsView.as_view(), name='top-months'),
     path('cashflow-monthly/', views.CashflowMonthlyCursorView.as_view(), name='cashflow-monthly'),
 
+    path('show-users/', views.ShowUsersView.as_view(), name='show-users'),
+    path('show-properties/', views.ShowPropertiesView.as_view(), name='show-properties'),
+    path('show-rentals/', views.ShowRentalsView.as_view(), name='show-rentals'),
+    path('show-expenses/', views.ShowExpensesView.as_view(), name='show-expenses'),
+    path('show-transactions/', views.ShowTransactionsView.as_view(), name='show-transactions'),
+    path('show-marketTrends/', views.ShowMarketView.as_view(), name='show-market-trends'),
+
     # --- PL/SQL Endpoints ---
     path('calculate-roi/', views.CalculateROIView.as_view(), name='calculate-roi'),
     path('days-to-lease-end/', views.DaysToLeaseEndView.as_view(), name='days-to-lease-end'),

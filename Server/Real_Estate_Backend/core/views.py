@@ -51,6 +51,13 @@ class MonthlyExpenseView(SimpleQueryView): query_file = 'monthly_expense.sql'
 class TopMonthsView(SimpleQueryView): query_file = 'top_months.sql'
 class CashflowMonthlyCursorView(SimpleQueryView): query_file = 'cashflow_monthly_cursor.sql'
 
+class ShowUsersView(SimpleQueryView): query_file = 'show_users.sql'
+class ShowPropertiesView(SimpleQueryView): query_file = 'show_properties.sql'
+class ShowRentalsView(SimpleQueryView): query_file = 'show_rentals.sql'
+class ShowExpensesView(SimpleQueryView): query_file = 'show_expenses.sql'
+class ShowTransactionsView(SimpleQueryView): query_file = 'show_transactions.sql'
+class ShowMarketView(SimpleQueryView): query_file = 'show_market_trends.sql'
+
 # ========== PL/SQL (Procedure, Function, Cursor) Views ==========
 
 class CalculateROIView(APIView):
