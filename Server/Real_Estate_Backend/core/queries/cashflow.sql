@@ -25,4 +25,3 @@ LEFT JOIN (
 -- COALESCENCE -> for handling null values if rent or expense is null 
 -- LEFT JOIN coz we want to consider properties with no rentals or expenses as well
 -- group by property id coz we are calculating for the particular property
--- group by address coz it is a non aggregated column

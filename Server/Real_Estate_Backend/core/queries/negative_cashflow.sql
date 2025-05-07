@@ -15,4 +15,4 @@ LEFT JOIN (
 ) e ON p.property_id = e.property_id
 WHERE COALESCE(r.total_rent, 0) - COALESCE(e.total_expense, 0) < 0
 
--- sub is just an alias for subquery
+

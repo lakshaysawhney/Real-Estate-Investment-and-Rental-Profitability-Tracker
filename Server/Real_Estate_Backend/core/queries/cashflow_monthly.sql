@@ -1,7 +1,7 @@
 SELECT
     p.property_id,
     p.address,
-    NVL(r.total_rent, 0) * 12 - NVL(e.total_expense, 0) AS cash_flow
+    NVL(r.total_rent, 0) - (NVL(e.total_expense, 0) / 12) AS cash_flow
 FROM Properties p
 LEFT JOIN (
     SELECT property_id, SUM(monthly_rent) AS total_rent
