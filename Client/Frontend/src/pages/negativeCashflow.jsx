@@ -397,7 +397,8 @@ export default function NegativeCashflow() {
                   <YAxis 
                     tick={{ fontSize: 12 }} 
                     stroke="#6b7280"
-                    tickFormatter={(value) => `-₹{Math.abs(value).toLocaleString()}`}
+                    // tickFormatter={(value) => `-₹{Math.abs(value).toLocaleString()}`}
+                    tickFormatter={(value) => `-₹${Math.abs(value).toLocaleString()}`}
                   />
                   <Tooltip content={<CustomTooltip />} />
                   <Bar 
