@@ -119,7 +119,7 @@ The system is built around six core entities.
 
 ## ER Diagram
 
-![ER Diagram](./screenshots/er-diagram.jpg)
+![ER Diagram](./screenshots/er-diagram.png)
 
 ### Main Relationships
 
