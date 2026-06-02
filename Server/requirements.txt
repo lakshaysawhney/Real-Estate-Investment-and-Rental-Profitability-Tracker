@@ -1,7 +1,5 @@
-Django==5.2
-djangorestframework==3.16.0
-django-cors-headers==4.7.0
+distlib==0.3.9
+filelock==3.18.0
+platformdirs==4.3.7
 python-dotenv==1.1.0
-gunicorn==23.0.0
-whitenoise[brotli]==6.9.0
-oracledb==3.1.0
+virtualenv==20.30.0
